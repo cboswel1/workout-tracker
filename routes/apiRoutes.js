@@ -38,4 +38,6 @@ router.get("/api/workouts/range", (req, res) => {
     })
 }); 
 
+//PUT workouts/workoutid 
+
 module.exports = router;
