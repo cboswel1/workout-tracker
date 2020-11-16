@@ -38,6 +38,18 @@ const WorkoutSchema = new Schema({
   ],
 });
 
+// PersonSchema
+// .virtual('name.full')
+// .get(function () {
+//   return this.name.first + ' ' + this.name.last;
+// })
+
+WorkoutSchema.virtual("totalDuration").length(function() {
+    return this.exercises.reduce((total, excercise) => {
+        return total + excercise.duration;
+    }, 0);
+});
+
 const Workout = mongoose.model("Workout", WorkoutSchema);
 
 module.exports = Workout;
