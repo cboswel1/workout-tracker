@@ -39,18 +39,14 @@ const WorkoutSchema = new Schema(
     ],
   },
   {
+    //virtual properties upon request
     toJSON: {
       virtuals: true,
     },
   }
 );
 
-// PersonSchema
-// .virtual('name.full')
-// .get(function () {
-//   return this.name.first + ' ' + this.name.last;
-// })
-
+// custom setter for virtual. Solved Duration undefined issue
 WorkoutSchema.virtual("totalDuration").get(function () {
   return this.exercises.reduce((total, exercise) => {
     return total + exercise.duration;
