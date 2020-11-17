@@ -20,7 +20,7 @@ const WorkoutSchema = new Schema({
       },
       duration: {
         type: Number,
-        required: "Duration of exercise in minutes",
+        trim: true
       },
       distance: {
         type: Number,
