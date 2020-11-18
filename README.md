@@ -7,6 +7,9 @@
 
 The Workout Tracker Application allows a user to keep track of their workouts. You can view your latest workout, add new workouts, or log the results of your latest workout. You can view a detailed history of the types of workouts you've completed in the past week, as well as the particular stats. 
 
+## Live Deploy 
+[Heroku Deploy](https://safe-lowlands-33202.herokuapp.com/)
+
 ## Table of Contents 
   - [Installation](#installation)
   - [Usage](#usage)
