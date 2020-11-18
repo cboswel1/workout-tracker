@@ -16,17 +16,17 @@ The Workout Tracker Application allows a user to keep track of their workouts. Y
 
 
 ## Installation 
-This repository can be cloned from Github.com/cboswel1/workout-logger. You must have node.js installed, while running the npm install command for needed dependencies. You will need express and moongoose npm dependencies installed to utilize this application. User will then run "node server.js" from the command line to begin prompts. 
+This repository can be cloned from Github.com/cboswel1/workout-tracker. You must have node.js installed, while running the npm install command for needed dependencies. You will need express and moongoose npm dependencies installed to utilize this application. User will then run "node server.js" from the command line to begin prompts. 
 
 
 ## Usage
   - [Node.js](https://nodejs.org/en/)
   - [MongoDB](https://www.mongodb.com/)
   - [NPM](https://www.npmjs.com/)
-  - [Handlebars](https://handlebarsjs.com/)
+  
 
 ## Preview 
-<img src="">
+<img src="workout1.png" alt="project image">
 
 
 ## Live Preview 
