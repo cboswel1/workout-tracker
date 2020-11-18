@@ -26,7 +26,7 @@ This repository can be cloned from Github.com/cboswel1/workout-tracker. You must
   
 
 ## Preview 
-<img src="workout1.png" alt="project image">
+<img src="https://github.com/cboswel1/workout-tracker/blob/main/public/assets/images/workout1.png?raw=true" alt="project image">
 
 
 ## Live Preview 
